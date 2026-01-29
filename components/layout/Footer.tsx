@@ -38,7 +38,7 @@ export default function Footer() {
                                 <div>
                                     <p className="text-sm font-medium">Teléfono</p>
                                     <a
-                                        href={`tel:${BUSINESS_INFO.phone}`}
+                                        href={`tel:${BUSINESS_INFO.phone1}`}
                                         className="text-sm text-gray-300 transition-colors hover:text-primary-400"
                                     >
                                         {BUSINESS_INFO.phone}

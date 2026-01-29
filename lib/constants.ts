@@ -1,6 +1,7 @@
 export const BUSINESS_INFO = {
     name: process.env.NEXT_PUBLIC_BUSINESS_NAME || 'Harmony Estética',
     phone: process.env.NEXT_PUBLIC_PHONE || '+51 916 968 170',
+    phone1: process.env.NEXT_PUBLIC_PHONE1 || '+51 930 768 517',
     whatsappNumber: process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || '51916968170',
     whatsappUrl: process.env.NEXT_PUBLIC_WHATSAPP_URL || 'https://wa.me/51916968170',
     address: process.env.NEXT_PUBLIC_ADDRESS || 'Jirón Aguilar #393, Huánuco, Perú',
