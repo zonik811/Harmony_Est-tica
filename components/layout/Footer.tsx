@@ -32,6 +32,20 @@ export default function Footer() {
                                     <p className="text-sm text-gray-300">{BUSINESS_INFO.address}</p>
                                 </div>
                             </div>
+                            <div className="flex items-start space-x-3">
+                                <MapPin className="mt-1 h-5 w-5 flex-shrink-0 text-primary-400" />
+                                <div>
+                                    <p className="text-sm font-medium">Razon Social: </p>
+                                    <p className="text-sm text-gray-300">{BUSINESS_INFO.razonsocial}</p>
+                                </div>
+                            </div>
+                            <div className="flex items-start space-x-3">
+                                <MapPin className="mt-1 h-5 w-5 flex-shrink-0 text-primary-400" />
+                                <div>
+                                    <p className="text-sm font-medium">RUC</p>
+                                    <p className="text-sm text-gray-300">{BUSINESS_INFO.ruc}</p>
+                                </div>
+                            </div>
 
                             <div className="flex items-start space-x-3">
                                 <Phone className="mt-1 h-5 w-5 flex-shrink-0 text-primary-400" />

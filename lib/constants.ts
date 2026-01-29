@@ -8,6 +8,8 @@ export const BUSINESS_INFO = {
     city: process.env.NEXT_PUBLIC_CITY || 'Huánuco',
     country: process.env.NEXT_PUBLIC_COUNTRY || 'Perú',
     email: 'contacto@harmonyestetica.pe', // Opcional
+    razonsocial: 'Diego Fernando Medina Capogra',
+    ruc: '10475435864'
 };
 
 export const NAV_LINKS = [
