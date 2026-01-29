@@ -41,7 +41,7 @@ export default function Footer() {
                                         href={`tel:${BUSINESS_INFO.phone1}`}
                                         className="text-sm text-gray-300 transition-colors hover:text-primary-400"
                                     >
-                                        {BUSINESS_INFO.phone}
+                                        {BUSINESS_INFO.phone1}
                                     </a>
                                 </div>
                             </div>
@@ -56,7 +56,7 @@ export default function Footer() {
                                         rel="noopener noreferrer"
                                         className="text-sm text-gray-300 transition-colors hover:text-[#25D366]"
                                     >
-                                        {BUSINESS_INFO.phone}
+                                        {BUSINESS_INFO.phone1}
                                     </a>
                                 </div>
                             </div>
